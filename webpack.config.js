@@ -38,6 +38,11 @@ const config = (env) => {
                         }]
                     },
                 ]
+            },
+            devServer: {
+                open: true,
+                publicPath: '/dist/bundles/',
+                contentBase: STATIC_DIR
             }
         },
         definitions
