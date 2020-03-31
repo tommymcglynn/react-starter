@@ -2,8 +2,14 @@
 
 Simple template for a React web app.
 
-## Get Started
-This terminal command will start a development server and launch the main web page.
+
+## New Project
+Use this terminal command to clone the template and remove git tracking for the original repository. Replace `{your-project-name}` with the name of your choice.
+
+    git clone https://github.com/tommymcglynn/react-starter.git {your-project-name} && cd {your-project-name} && rm -rf .git
+
+## Run Project
+Use this terminal command to start a development server and launch the main web page.
 
     npm run start:dev
 
